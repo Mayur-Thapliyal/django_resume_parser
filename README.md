@@ -17,7 +17,7 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 #### Providing User details to register
-- With your active python env. Clone git repo ```git@github.com:Mayur-Thapliyal/django_resume_parser.git``` and redirect to ITresumeParser and run
+- With your active python env. Clone git repo ```https://github.com/Mayur-Thapliyal/django_resume_parser/tree/developer``` and redirect to ITresumeParser and run
 ```python
     python3 manage.py createsuperuser
 ```
