@@ -22,7 +22,7 @@ class AppView(ViewSet):
     operation_summary="get data from rsume",
     request_body=FileSerializer,
     tags=["Parsing"])
-    def demo_api(self,request):
+    def extract_details(self,request):
         try:
             serializers_obj = FileSerializer(data=request.data)
             if serializers_obj.is_valid(raise_exception=True):
